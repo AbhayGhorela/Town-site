@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    text-align: center;
+    background: #0A2647;
+    color: white;
+    text-shadow: 0 0 1px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family:merathus;
+    src: url(fonts/Merathus.ttf);
+}
+    
+#header{
+background: url("Images/hava-mahal.jpg");
+background-size: cover;
+height: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 0px 0px 50px 50px;
+    
+}
+
+.heading-text, .sub-heading-text{
+    color: #F33535;
+    background-color: #33425B;
+    text-align: center;
+    padding: 8px 25px;
+    text-shadow: none;
+    border-radius: 50px;
+    
+}
+
+.heading-text{
+    font-family: merathus;
+    font-size: 100px;
+    letter-spacing: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.place-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border:5px solid #453C67;
+}
+
+.about-places{
+    line-height: 30px;
+}
+
+.main-content{
+    margin: 30px 55px;
+}
+
+.add-padding{
+    margin: 8px 0;
+}
+
+
+#main{
+    display: flex;
+    
+}
+
+#card{
+    display: flex;
+    align-items: center;
+    width:400px;
+    height: 200px;
+    background: #144272;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border-bottom: 8px solid gray;
+    border-radius: 5px;
+    text-shadow: none;
+
+}
+
+.guide-img{
+    width: 150px;
+    height: 150px;
+    margin:0 20px 0 0;
+    border-radius: 10px;
+}
+
+a{
+    color: white;
+    text-shadow: 0 0 1px black;
+    text-decoration: none;
+    background: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.place-title{
+    color:#F33535;
+}
+
+.icon{
+    margin:20px 0px 50px;
+    padding: 15px;
+    --fa-animation-duration: 3s;
+}
+
+.uposite{
+    --fa-flip-x: 1; --fa-flip-y:0;
+}
+
+.icon:hover{
+    --fa-flip-x: 0; --fa-flip-y:0;
+}
